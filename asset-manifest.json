@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/fiek-equipments-app/static/css/main.3d85d988.css",
+    "main.js": "/fiek-equipments-app/static/js/main.922111db.js",
+    "static/media/BrainSensing.jpg": "/fiek-equipments-app/static/media/BrainSensing.95db7a616fc0fd03e062.jpg",
+    "static/media/EyeTracker.jpg": "/fiek-equipments-app/static/media/EyeTracker.0d462e858d2746379d35.jpg",
+    "static/media/Chromecast.jpg": "/fiek-equipments-app/static/media/Chromecast.5834d0bf084373d0986c.jpg",
+    "static/media/Headset.jpg": "/fiek-equipments-app/static/media/Headset.80cd2a86a2c3a9d3ec0f.jpg",
+    "static/media/SmartphoneSensorsNode.jpg": "/fiek-equipments-app/static/media/SmartphoneSensorsNode.9c2618be54bb8b45e391.jpg",
+    "static/media/GatewayNode.jpg": "/fiek-equipments-app/static/media/GatewayNode.77a167ea4291e99cff9f.jpg",
+    "static/media/HighSpeedRouter.jpg": "/fiek-equipments-app/static/media/HighSpeedRouter.95a604725feef29489a4.jpg",
+    "static/media/AirSensorsNode.jpg": "/fiek-equipments-app/static/media/AirSensorsNode.f388ee495c8dd6c782f6.jpg",
+    "static/media/Logo-PhDICTKES.png": "/fiek-equipments-app/static/media/Logo-PhDICTKES.fcf4d2def938a2992822.png",
+    "static/media/Monitor.jpg": "/fiek-equipments-app/static/media/Monitor.c615121b1763b1cafaab.jpg",
+    "static/media/SmartUPSBackgroundView.jpg": "/fiek-equipments-app/static/media/SmartUPSBackgroundView.2cd5e5edd3422f6d5cd0.jpg",
+    "static/media/Microphone.jpg": "/fiek-equipments-app/static/media/Microphone.29842d8ea7509f6ac5b4.jpg",
+    "static/media/NetworkSwitchCopper.jpg": "/fiek-equipments-app/static/media/NetworkSwitchCopper.ff8615c24d8513683a62.jpg",
+    "static/media/FPGABoards.jpg": "/fiek-equipments-app/static/media/FPGABoards.cae58e3668d562494390.jpg",
+    "static/media/Cat6ACablesForServerRoom.jpg": "/fiek-equipments-app/static/media/Cat6ACablesForServerRoom.527289c120c0c628f0b2.jpg",
+    "static/media/ResearchWSs.jpg": "/fiek-equipments-app/static/media/ResearchWSs.b20b4b1390d9a325f0b6.jpg",
+    "static/media/Logo-UP-small.png": "/fiek-equipments-app/static/media/Logo-UP-small.628cbef48afa884743b0.png",
+    "static/media/HeadsetUse1.jpg": "/fiek-equipments-app/static/media/HeadsetUse1.f165b27d5dd8c9dcb1bd.jpg",
+    "static/media/ChromecastUse1.jpg": "/fiek-equipments-app/static/media/ChromecastUse1.161befbdc5f6f77892ca.jpg",
+    "static/media/EyeTrackerUse1.jpg": "/fiek-equipments-app/static/media/EyeTrackerUse1.e8d3e0fe0dfea74776a5.jpg",
+    "static/media/ChromecastUse2.jpg": "/fiek-equipments-app/static/media/ChromecastUse2.885ccccbf05b68a8a11a.jpg",
+    "static/media/EyeTrackerUse2.jpg": "/fiek-equipments-app/static/media/EyeTrackerUse2.0aab1be49cc2e196075e.jpg",
+    "index.html": "/fiek-equipments-app/index.html",
+    "main.3d85d988.css.map": "/fiek-equipments-app/static/css/main.3d85d988.css.map",
+    "main.922111db.js.map": "/fiek-equipments-app/static/js/main.922111db.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d85d988.css",
+    "static/js/main.922111db.js"
+  ]
+}

@@ -1,0 +1,241 @@
+body {
+  padding: 5px 0px;
+  background-color: #dfe6e9;
+  text-align: justify;
+  font-family: sans-serif;
+}
+
+.title {
+  font-size: 2em;
+  font-weight: 600;
+  padding-left: 76px;
+  padding-bottom: 0px;
+  margin-top: 38px!important;
+}
+
+.logo-text {
+  font-size: 10pt;
+  line-height: 1;
+  padding-top: 5px;
+  text-align: left;
+  white-space: pre-wrap !important;
+  box-sizing: border-box;
+  font-weight: 500;
+  font-family: "Baker", "Fraunces", serif;
+  max-width: 190px;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+
+.logo {
+  width: 90px;
+  height: 80px;
+  margin: 0px 10px 0px 30px;
+}
+
+.text-blue {
+  color: #003366 !important;
+}
+
+/* Layout consists of Sidebar and Content */
+.layout {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content {
+  flex: 1;
+  padding-left: 30px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 767px) {
+  .content {
+    padding-left: 0;
+    padding-top: 10px;
+    width: 76%;
+  }
+}
+
+.sidebar {
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+  width: 28%;
+  height: 100%;
+}
+
+@media (max-width: 767px) { 
+  .sidebar {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+    width: 28%;
+    height: 100%;
+  }
+}
+
+.sidebar.show {
+  height: 100vh;
+}
+
+@media (max-width: 992px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+
+.sidebar .active {
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.heading {
+  margin: 20px 0 30px;
+  font-size: 1.5em;
+  color: #2d3436;
+  text-align: center;
+}
+
+/* Cards */
+.card {
+  position: relative;
+  margin: 20px 10px;
+  padding: 25px 10px;
+  height: 180px;
+  max-width: 340px;
+  min-width: 340px;
+  text-align: left;
+  /* background-color: #81ecec!important; */
+  /* background-color: #0098a7!important; */
+  /* background-color: #fd3535!important; */
+  /* background-color: #fbfafa!important; */
+  /* background-color: #feefef!important; */
+  /* background-color: white!important; */
+  /* background-color: #fbf9f9!important; */
+  /* background-color: #a82323!important; */
+  /* opacity: 0.9; */
+  border-radius: 25px!important;
+  box-shadow: 0 2px 5px #ccc;
+}
+
+.top {
+  border-radius: 25px 25px 0 0;
+  height: 100px;
+  width: 100%;
+  background-color: #00cec9;
+  /* background-color: #a70f00; */
+  /* background-color: #941f1f; */
+  /* background-color: #ffe4e4; */
+  /* background-color: #fdf4f4; */
+  /* background-color: #fbf4f4; */
+  /* background-color: #fffafa; */
+  /* border-bottom: 1px solid #76191956;  */
+  border-bottom: 1px solid #C70202;
+  /* background-color: #feefef; */
+  /* opacity: 0.9; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+
+.name {
+  font-size: 1.1em;
+  color: #2d3436;
+  /* color: white; */
+  /* color: #761919; */
+  font-weight: 500;
+  /* color: #fbf9f9; */
+  display: flex;
+  flex: 1;
+  margin: 5% 20px 0;
+}
+
+ul {
+  text-align: left;
+  padding-top: 10px;
+}
+
+.card img {
+  margin: 20px 20px 0 0;
+}
+
+.circle-img {
+  border-radius: 50%;
+  /* border: 7px solid #fff; */
+  /* border: 7px solid #feefef; */
+  /* border: 2px solid #C70202; */
+  /* border: 5px solid #76191956; */
+  border: 7px solid white;
+  /* border: 7px solid white; */
+  /* border: 4px solid #761919; */
+  /* border: 3px solid #76191982; */
+  width: 120px;
+  height: 120px;
+}
+
+.bottom {
+  margin-top: 100px;
+}
+
+.info {
+  font-size: 1em;
+  font-weight: 400;
+  margin: 20px 0px 0px 0px;
+  color: #1a7e76;
+  /* color: white; */
+  /* color: #a82323; */
+  /* color: #761919; */
+  /* color: #861f1ff9; */
+  /* color: #30a8d3; */
+}
+
+.section-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-left: 3px;
+  width: 100%;
+  text-align: left;
+  background-color: white;
+}
+
+.section-heading {
+  width: 100%;
+  margin-top: 4.3px;
+  padding: 5px 0 0 5px;
+  border-radius: 5px;
+  /* background-color: #1a7e76; */
+  background-color: #C70202;
+  /* background-color: #fd3535; */
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .section-card {
+    width: 100vp;
+  }
+}
+
+.section-narrative {
+  padding: 5px 0 5px 2px;
+  font-size: 1em;
+  color: black;
+}
+
+.section-img {
+  margin: 10px 0;
+  width: 60%;
+  object-fit: contain;
+}
+
+.section-video {
+  margin: 10px 0;
+  width: 60%;
+  height: 60%;
+}
