@@ -15,14 +15,15 @@ import About from "./About";
 import Contact from "./Contact";
 
 // Sidebar nav
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
 const App = () => {
     return (
         // <div className="d-flex flex-row bd-highlight mb-3">
 
             <div className="p-1 bd-highlight mx-3 mt-4">
-                <Router basename={process.env.PUBLIC_URL || ''}>
+                <Router> 
+                {/* {process.env.PUBLIC_URL || ''}> */}
                     <Routes>
                         <Route path="/" exact element={<Home/>} />
                         <Route path="/IoTair" element={<IoTAir/>} />
