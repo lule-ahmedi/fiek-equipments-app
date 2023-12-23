@@ -80,7 +80,7 @@ const devices = [
   {
     name: "Research workstations",
     imgURL: require("./ResearchWSs.jpg"),
-    description: "Smart UPS, network switch (copper), Cat6A Cables (for server room)",
+    description: "Laptops well-equipped with processing and memory units suited for research experiments",
     quantity: "2"
   },
   {
